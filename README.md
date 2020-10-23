@@ -2,11 +2,11 @@
 
 This is the implementation about the multi-task learning with personality trait detection and emotion detection.
 
-##Environments
+## Environments
 `python >= 3.6`
 `pytorch>=1.6.0`
 
-##Dataset
+## Dataset
 
 The data should be organized in the.py file as follows:
 
@@ -18,7 +18,7 @@ dataset = [
 ]
 ```
 
-##Embedding
+## Embedding
 
 The default embedding is [Glove](http://nlp.stanford.edu/data/glove.6B.zip "Glove").
 
