@@ -1,68 +1,19 @@
-# mtl-sentic
+# Personality Trait Detection with MTL
 
-###Reading List
+This is the implementation about the multi-task learning with personality trait detection and emotion detection.  
 
-An Interactive Multi-Task Learning Network for End-to-End Aspect-Based Sentiment Analysis
+The code can be run directly after processing the data in the format as follows:
 
-https://www.aclweb.org/anthology/P19-1048.pdf
+`##["joy":0, "anger":1, "disgust":2, "shame":3, "guilt":4, "fear":5, "sadness":6]
+dataset = [
+	("During the period of falling in love, each time that we met and especially when we had not met for a long time.", 0),
+	("When I was involved in a traffic accident.", 5)
+]`
 
-Multi-Task Learning for Coherence Modeling
+## Requirement
 
-https://www.aclweb.org/anthology/P19-1060.pdf
+`pytorch>=1.6.0`
 
-Exploiting Entity BIO Tag Embeddings and Multi-task Learning for Relation Extraction with Imbalanced Data
+## Runing Code
 
-https://www.aclweb.org/anthology/P19-1130.pdf
-
-Continual and Multi-Task Architecture Search
-
-https://www.aclweb.org/anthology/P19-1185.pdf
-
-Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model
-
-https://www.aclweb.org/anthology/W19-4330.pdf
-
-SentiBERT: A Transferable Transformer-Based Architecture for Compositional Sentiment Semantics
-
-https://arxiv.org/pdf/2005.04114.pdf
-
-What Makes for Good Views for Contrastive Learning?
-*interesting paper to read.  inspiring to construct multi-view data in multi-task setting
-
-https://arxiv.org/pdf/2005.10243.pdf
-
-Meta Multi-Task Learning for Sequence Modeling
-
-https://arxiv.org/pdf/1802.08969.pdf
-
-META-LEARNING MULTI-TASK COMMUNICATION
-points out a key issue with existing MTL methods
-
-https://arxiv.org/pdf/1810.09988.pdf
-
-UNDERSTANDING AND IMPROVING INFORMATION TRANSFER IN MULTI-TASK LEARNING
-some insights into the shared feature method
-
-https://openreview.net/pdf?id=SylzhkBtDB
-
-Curriculum Learning of Multiple Tasks
-*curriculum learning 
-
-https://arxiv.org/pdf/1412.1353.pdf
-
-Self-Paced Multitask Learning with Shared Knowledge
-
-https://www.ijcai.org/Proceedings/2017/0351.pdf
-
-Multi-Task Deep Neural Networks for Natural Language Understanding
-
-https://arxiv.org/pdf/1901.11504.pdf
-
-
-
-
-
-###Our FrameWork
-
-https://drive.google.com/file/d/1JVsWJ-jYoLfFc6DryVsGz-ot4E5nOJS9/view?usp=sharing
-
+`python main.py --learning_rate 1e-4`
