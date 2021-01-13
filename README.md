@@ -1,6 +1,6 @@
 # Personality Trait Detection with MTL
 
-This is the implementation about the multi-task learning with personality trait detection and emotion detection.
+This is the implementation about [Multitask Learning for Emotion and Personality Detection](https://arxiv.org/abs/2101.02346).
 
 ## Environments
 `python >= 3.6`
@@ -26,4 +26,5 @@ The default embedding is [Glove](http://nlp.stanford.edu/data/glove.6B.zip "Glov
 
 ## Running Code
 
-`python main.py --learning_rate 1e-4`
+`python main.py`
+
